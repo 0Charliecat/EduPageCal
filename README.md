@@ -9,6 +9,7 @@
 1. Create `.keychain.json` file inside directory of this code and use `example.keychain.json` as your guide.
 2. Type in Terminal `npm i` and then `node .`
 3. Web server should be on port `4352`
+4. Add `localhost:4352/<your key in keychain>` to your calendar, keep in mind that Google can't reach your `localhost` ip
 
 Its recommended to have this on computer (or something which can run nodejs) that is always on, like Raspberry Pi or a Server and have a forwarded port `4352` if you can't forward port, use `cloudflared` or `ngrok`. If you want to use `Replit` **DONT PASTE YOUR PASSWORD IN CLEAR TEXT,** use secrets tab and change `keychain` variable in `index.js` to replit env.
 
