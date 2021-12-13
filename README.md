@@ -40,15 +40,15 @@ Some calendars may not be happy with http iCal. Ignore that, they should have a 
 ## `.keychain.json`
 
 > `name` - Your login Email or Name in edupage (example: CharlieChonster)
-
+>  
 > `password` - Password to your edupage account
-
+> 
 > `downloadKeychain` - A string of characters which are used to download the chalendar, Use something like UUID
-
+> 
 > `teacherEmailSchema` - A template of Teacher email address, use
-
+> 
 > • `[firstName]` for teacher’s first name
-
+> 
 > • `[lastName]` teacher’s last name
-
+> 
 > • `[firstNameIni]` and `[lastNameIni]` for Initiales of teacher
